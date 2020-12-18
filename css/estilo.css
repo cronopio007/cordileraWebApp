@@ -448,3 +448,73 @@ li.mis-redes a {
   padding-bottom: 1rem;
   padding-top:1rem;
 }
+
+
+
+
+/*=================carpetas ============================*/
+header.header1{
+  display: flex;
+}
+
+.barra{
+  background-color: var(--rojo);
+  width: 100%;
+  display: flex;
+}
+
+.barra-navegadora{
+  justify-content: flex-end;
+}
+.barra nav ul li a.a-nav-header{
+  color: var(--claro);
+  text-decoration: none;
+}
+.barra nav.navHeader ul li{
+  padding-left: 2rem;
+}
+
+
+/*inicio del cuerpo del conocenos */
+div.contenido{
+  background-color: aqua;
+  padding: 2rem;
+  margin: 1rem 2rem;
+  display: flex;
+}
+
+/*bloques con cada parte del conocenos */
+div.nosotros{
+  width:50%;
+  height:100%;
+  background-color: red;
+  padding: 1.5rem;
+}
+
+/*mision y vision */
+div.segundaParte{
+  padding: 0.5rem 2.5rem;
+}
+
+div.mision{
+  width: 50%;
+  height:10rem;
+}
+
+div.vision{
+  width: 50%;
+  height:100%;
+}
+
+/*texto en los blokes */
+div.division p{
+  color: slategray;
+  text-align: right;
+}
+
+
+/*==============TURISMO CULTURAL======================= */
+
+div.resumen{
+  width:50%;
+}
